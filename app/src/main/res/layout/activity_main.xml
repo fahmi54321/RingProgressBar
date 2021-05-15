@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <io.netopen.hotbitmapgg.library.view.RingProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar_1"
+            app:max="100"
+            app:ringColor="@color/purple_700"
+            app:ringProgressColor="@color/purple_500"
+            app:ringWidth="3dp"
+            app:style="FILL"
+            app:textColor="@color/teal_700"
+            app:textIsShow="true"
+            app:textSize="16sp"></io.netopen.hotbitmapgg.library.view.RingProgressBar>
+        <io.netopen.hotbitmapgg.library.view.RingProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_bar_2"
+            app:max="100"
+            app:ringColor="@color/teal_700"
+            app:ringProgressColor="@color/purple_500"
+            app:ringWidth="3dp"
+            app:style="STROKE"
+            app:textColor="@color/purple_700"
+            app:textIsShow="true"
+            app:textSize="16sp"></io.netopen.hotbitmapgg.library.view.RingProgressBar>
+
+    </LinearLayout>
+
+</RelativeLayout>

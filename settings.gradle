@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "78 Ring Progress Bar"
